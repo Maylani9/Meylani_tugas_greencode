@@ -1,0 +1,45 @@
+.kotakbesar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.kotak {
+  height: 500px;
+  width: 500px;
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.kotakkecil {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
+.kotakkecil {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
+.kotak1 {
+  height: 500px;
+  width: 500px;
+  background-color: black;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+.kotakkecik {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
+.kotakkecik {
+  width: 100px;
+  height: 100px;
+  background-color: white;
+}
