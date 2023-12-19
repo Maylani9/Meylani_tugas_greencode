@@ -1,0 +1,113 @@
+.nav {
+  background-color: #9a31cc;
+  list-style: none;
+  padding: 10px 0;
+  font-size: 16px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+
+.nav a {
+  color: white;
+  text-align: center;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  list-style: none;
+}
+.nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+}
+li {
+  list-style-type: none;
+  padding: 5px 0;
+  flex-direction: row;
+  margin: 0;
+  padding: 0;
+
+  text-decoration: none;
+  padding: 14px 16px;
+}
+.persegi {
+  background-color: #d6f3ff;
+  width: 100%;
+  height: 680px;
+}
+.kotak {
+  height: 400px;
+  width: 400px;
+  background-color: #ffe600;
+  gap: 268px;
+  margin-top: 150px;
+}
+.bungkus1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 184px;
+}
+.kotakBesar {
+  background-color: #ffe600;
+  width: 100%;
+  height: 700px;
+}
+.bungkus2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 75px;
+}
+.kotak1 {
+  background-color: #ff0000;
+  width: 329px;
+  height: 400px;
+  gap: 75px;
+  margin-top: 150px;
+}
+.petak {
+  background-color: #a634c3;
+  width: 100%;
+  height: 700px;
+}
+.bungkus3 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 50px;
+}
+.kotak2 {
+  width: 258px;
+  height: 246px;
+  background-color: #24ff00;
+  margin-top: 70px;
+}
+.balok {
+  background-color: #99d8f4;
+  width: 100%;
+  height: 700px;
+}
+.bungkus4 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 324px;
+}
+.kotak3 {
+  background-color: #bb00fd;
+  height: 411px;
+  width: 421px;
+  margin-top: 150px;
+  border-radius: 200px;
+}

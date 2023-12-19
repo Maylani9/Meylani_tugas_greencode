@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <label for="">id</label>
+    <input type="number" id="input-id" />
+    <br />
+    <label for="">nama</label>
+    <input type="text" id="input-nama" />
+
+    <br />
+    <label for="">code</label>
+    <input type="text" id="input-code" />
+    <br />
+    <label for="">category</label>
+    <input type="text" id="input-category" />
+    <br />
+    <label for="">price</label>
+    <input type="number" id="input-price" />
+    <button onclick="addData()">Tambah Data</button>
+    <table border="1">
+      <thead>
+        <tr>
+          <th>no</th>
+          <th>id</th>
+          <th>nama</th>
+          <th>code</th>
+          <th>category</th>
+          <th>price</th>
+        </tr>
+      </thead>
+      <tbody id="data">
+        <!-- <tr>
+          <td>1</td>
+          <td>xfgh234</td>
+          <td>Pangkas</td>
+          <td>reguler</td>
+          <td>Rp 35000</td>
+        </tr> -->
+      </tbody>
+    </table>
+
+    <script src="lat.js"></script>
+  </body>
+</html>
